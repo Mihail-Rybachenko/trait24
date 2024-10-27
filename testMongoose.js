@@ -4,7 +4,7 @@ var schema = mongoose.Schema({ name: String })
 schema.methods.uni = function(){
     console.log(this.name + " мне помогла стать лучше")
     }
-    
+
 const Trait = mongoose.model('Trait', schema);
 const character = new Trait({ name: 'Решительность' });
 character.save().then(() => character.uni());
