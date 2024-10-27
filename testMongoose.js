@@ -7,4 +7,5 @@ var trait = new Trait({
     title: "Храбрость",
     nick: "bravery",
 })
+
 trait.save();
