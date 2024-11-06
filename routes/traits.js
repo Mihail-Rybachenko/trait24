@@ -3,7 +3,10 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+  res.send('Новый маршрутизатор, для маршрутов, начинающихся с traits');
 });
-
+/* Страница черт характера */
+router.get("/:nick", function(req, res, next) {
+  res.send(req.params.nick);
+  });
 module.exports = router;
