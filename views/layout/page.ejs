@@ -15,15 +15,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link" href="/traits/bravery">Храбрость</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="/traits/justice">Справедливость</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="/traits/Patience">Терпение</a>              
-            </li>
+            <% if(typeof nav == 'object' && nav){
+              nav.forEach(function(item){
+              %>
+              <li class="nav-item">
+              <a class="nav-link" href="/traits/<%= item.nick %>"><%=item.title %></a>
+              </li>
+              <%
+              })}
+              %>
+              
           </ul>
         </div>
       </div>
