@@ -29,7 +29,7 @@ app.use(session({
   proxy: true,
   resave: true,
   saveUninitialized: true,
-  store: MongoStore.create({mongoUrl: 'mongodb://localhost/Mih_tr2024'})
+  store: MongoStore.create({mongoUrl: 'mongodb://localhost/Mih_tr_Final'})
   }))
   app.use(function(req,res,next){
     req.session.counter = req.session.counter + 1 || 1
