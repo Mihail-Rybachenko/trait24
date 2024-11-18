@@ -52,13 +52,13 @@
 Чтобы увидеть полный функционал проекта, проделайте 3 последних шага, а затем с помощью следующей команды перейдите на ветку Mih_tr_Final:
 > - **`git checkout Mih_tr_Final`**</br>
 ## Инструменты:
-<p>:zap: Nodejs.</p>
+<p>:zap: Node.js.</p>
 <p>:zap: Express.js.</p>
 <p>:zap: MongoDB и Mongoose.</p>
 </div>
 
 
-
+<img src="https://web.telegram.org/6a9c90be-c7d8-4ff5-8314-04b7242fb764" width="600" height="500">
 
 
 
