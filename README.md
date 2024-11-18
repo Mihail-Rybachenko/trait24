@@ -37,7 +37,7 @@
 > - **`brew services start mongodb-community`**</br>
 ### Для Linux
 > - **`sudo systemctl start mongod`**
->   
+##
 > Затем запустить файл createDB.js
 > - **`node createDB.js`**
 ##
